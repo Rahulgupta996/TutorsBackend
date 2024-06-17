@@ -11,4 +11,9 @@ public class TestController {
     public String showName(){
         return "Hello World";
     }
+
+    @GetMapping("/rahul")
+    public String getName(){
+        return "Hello Rahul";
+    }
 }
